@@ -32,19 +32,32 @@ $(window).scroll(function() {
 });
 
 
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:true,
-  responsive:{
-      0:{
-          items:1
+$('.owl-1').owlCarousel({
+  loop: true,
+  margin: 0,
+  nav: true,
+  autoplay:true,
+  autoplayTimeout:3000,
+  autoplayHoverPause:true,
+  center: true,
+  responsive: {
+      0: {
+          items: 1
       },
-      600:{
-          items:3
+      600: {
+          items: 1
       },
-      1000:{
-          items:5
+      1000: {
+          items: 1
       }
   }
+})
+
+
+
+VanillaTilt.init(document.querySelectorAll(".card_glass"), {
+  max: 25,
+  speed: 400,
+  glare: true,
+  "max-glare": 1,
 })
