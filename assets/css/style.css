@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --w-color:#fff;
+    --g-color-:#E1E1E1;
+    --b-color:#0a90cd;
+}
+html{
+    scroll-behavior: smooth;
+}
+.area{
+    padding: 60px 10px;
+}
+body {
+    font-family: 'Poppins';
+}
+.navbar_sec{
+    background-color: var(--w-color-)!important;
+    box-shadow: 2px 4px 5px rgb(0 0 0 / 20%);
+    padding: 5px 0;
+}
+.custom_nav{
+    margin-left: 20px;
+}
+.custom_nav a{
+    margin-top: 2px;
+    padding: 5px 20px;
+    box-shadow: 2px 4px 10px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    font-weight: 100;
+    color: var(--w-color)!important;
+    background-color: var(--b-color);
+    text-decoration: none;
+}
+.cc{
+    display: flex;
+    justify-content: center;
+}
+.cc1{
+    display: flex;
+    align-items: center;
+}
+.hero_content h1{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.hero_content h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero_btn{
+    padding: 6px 20px;
+    box-shadow: 2px 4px 10px rgb(0 0 0 / 20%);
+    border-radius: 8px;
+    font-weight: 100;
+    color: var(--w-color);
+    background-color: var(--b-color);
+    text-decoration: none;
+
+}
+.hero_btn:hover{
+    text-decoration: none;
+    color: var(--w-color);
+}
+
+.bottom_sec{
+    background-color: var(--b-color);
+}
+.bottom_sec_title{
+    text-align: center;
+    color: var(--w-color);
+    font-size: 30px;
+    font-weight: 500;
+}
+.data-number{
+    color: var(--w-color);
+    font-size: 22px;
+
+}
+.custom_card{
+ 
+}
+.custom_card_img{
+    display: flex;
+    justify-content: center;
+}
+.custom_card_img img{
+    color: var(--w-color);
+    max-width: 80px;
+}
+.custom_card_content .card_in{
+/* text-align: center; */
+margin: 10px 0 0px;
+display: flex;
+justify-content: center;
+}
+.custom_card_content .card_in h5, span{
+    color: var(--w-color);
+    font-size: 28px;
+}
+.custom_card_content .card_in span{
+font-size: 22px;
+}
+.custom_card_content h6{
+    text-align: center;
+    color: var(--w-color);
+    font-size: 20px;
+    font-weight: 500;
+}
