@@ -34,6 +34,7 @@ body {
     color: var(--w-color)!important;
     background-color: var(--b-color);
     text-decoration: none;
+    text-align: center;
 }
 .cc{
     display: flex;
@@ -112,3 +113,21 @@ font-size: 22px;
     font-size: 20px;
     font-weight: 500;
 }
+
+
+
+
+@media (min-width: 10px) and (max-width: 600px) { 
+    .mobspace_10{
+        margin-top: 10px;
+    }
+    .mobspace_20{
+        margin-top: 20px;
+    }
+    .mobspace_30{
+        margin-top: 30px;
+    }
+    .custom_card{
+        margin: 20px 0;
+    }
+ }
